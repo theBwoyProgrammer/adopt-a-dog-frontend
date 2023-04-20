@@ -1,6 +1,11 @@
+import MobileNav from "@/components/mobileNav"
+
 function availablePuppies() {
   return (
-    <div>availablePuppies</div>
+     <>
+        <MobileNav />
+       <div>availablePuppies</div>
+     </>
   )
 }
 

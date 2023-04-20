@@ -1,10 +1,10 @@
-import Link from 'next/link'
+import MobileNav from "../components/mobileNav";
 
 export default function Home() {
   return (
-      <div className="p-10">
-         <Link href="/dog">Home</Link>
-         <Link href="/availablePuppies">Available Puppies</Link>
+      <div>
+        <MobileNav />
+        <h1>Adopt a Dog</h1>
       </div>
   )
 }
